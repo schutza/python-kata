@@ -55,22 +55,8 @@ class CardGame:
 
 
 class Rules:
-    """
-    The Rules must encapsulate:
-    - name: the name of the game - simple property
-    - num_players: how may players are possible - simple property
-    - num_cards_per_player: how many cards per player (dealer aspect)
-       - slightly more complex property - may be a function of num_players
-    - Stack?: stack-based game? ? etc.
-    - Trick?: trick-based game?
-    - OtherThanStackOrTrick?: head-to-head (black jack)? sequence-based (patience)
-    - card-reveal mechanism: reveal full hand? reveal one at a time?
-    - on Stack: draw card mechanism: take one from stack?
-    - on Trick: take one from trick? take full trick?
-    - card comparison (might have default order in CardDeck)
-    - Turn: normally, clockwise. Some games allow barge-in for anyone..
-    """
     pass
+
 
 if __name__ == '__main__':
     players = [Player(str(i)) for i in range(0,3)]
