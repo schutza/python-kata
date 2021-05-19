@@ -39,6 +39,8 @@ Each player has a name and a hand (`List` of `Card`s)
 Composed of `List` of `Players`, `Rules`, and `CardDeck`
 
 
+![cached image](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/schutza/python-kata/blob/main/card-game/design.puml)
+
 ```plantuml
 @startuml component
 actor Players
