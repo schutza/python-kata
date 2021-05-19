@@ -1,0 +1,10 @@
+@startuml component
+actor Players
+node CardGame
+database Rules
+component CardDeck
+
+Players -> CardGame
+CardGame <- Rules
+CardDeck -down-> CardGame
+@enduml
